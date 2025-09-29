@@ -13,3 +13,9 @@
   - **Variables** let us store values without worrying about registers.  
   - **Functions** allow us to reuse code instead of repeating instructions.  
   - **Loops** make iteration much simpler compared to manually jumping in Assembly.  
+
+| **Feature**        | **Assembly Example** | **Python Example** | **Notes** |
+|---------------------|----------------------|--------------------|-----------|
+| **Variable storage** | `MOV EAX, 5`        | `x = 5`            | Assembly uses registers; Python uses variables in memory. |
+| **Printing output** | `INT 21h`            | `print()`          | Assembly relies on system interrupts; Python has built-in functions. |
+| **Arithmetic**      | `ADD AX, BX`         | `x + y`            | Assembly is step-by-step; Python is more abstract and simple. |
